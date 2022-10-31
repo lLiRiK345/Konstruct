@@ -7,6 +7,12 @@
   src: url("./fonts/BebasNeue-Regular.ttf") format("ttf");
 }
 
+@import url("./header.css");
+@import url("./about.css");
+@import url("./services.css");
+@import url("./work.css");
+@import url("./contact.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +21,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #48555b;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 img {
@@ -39,7 +49,7 @@ a {
   align-items: center;
   box-sizing: border-box;
   background-color: gray;
-  background-image: url("./img/bg.svg");
+  background-image: url("./img/Header/Konstruck_Backgroung.svg");
   background-size: cover;
   background-position: center;
   font-weight: 700;
@@ -157,6 +167,7 @@ nav>ul>li>a:hover {
   justify-content: space-between;
   gap: 15px;
 }
+
 .services {
   display: flex;
   flex-direction: column;
@@ -245,7 +256,7 @@ nav>ul>li>a:hover {
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  background-image: url("./img/touch.svg");
+  background-image: url("./img/Konstruck_Backgroung\ 2.svg");
   background-position-y: 2px;
   background-repeat: no-repeat;
   min-height: 500px;
@@ -353,4 +364,11 @@ footer>p {
   font-size: 11px;
   line-height: 15px;
   color: #ffffff;
+}
+
+@media (max-width: 425px) {
+  nav>ul {
+    display: flex;
+    gap: 15px;
+  }
 }

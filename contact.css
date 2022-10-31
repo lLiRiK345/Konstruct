@@ -1,0 +1,53 @@
+
+.newsletter {
+    height: 100px;
+    background-color: #171819;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper>p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+    padding-right: 70px;
+  }
+  
+  .email>input {
+    box-sizing: border-box;
+    width: 250px;
+    height: 40px;
+    padding-left: 16px;
+  }
+  
+  .email>input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
+  .email>button {
+    transform: translate(-5px, -0.5px);
+  }
+  
+  .email__btm {
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 11px 29px;
+    background-color: #00a4e5;
+    border: 0;
+    min-width: 153px;
+    max-height: 40px;
+    border: 1px solid #00a4e5;
+    cursor: pointer;
+  }
+  

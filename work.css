@@ -1,0 +1,46 @@
+
+.touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    background-image: url("./img/Konstruck_Backgroung\ 2.svg");
+    background-position-y: 2px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+  
+  .touch>h2 {
+    width: 348px;
+    text-align: center;
+    padding: 120px 0 35px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .touch__btm {
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 11px 29px;
+    background-color: #00a4e5;
+    border: 0;
+    min-width: 153px;
+    max-height: 40px;
+    border: 1px solid #00a4e5;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+  }
+  
+  .touch__btm:active {
+    transform: scale(0.9);
+    transition: 0.5s ease-out;
+  }
+  
+  .touch__btm:hover {
+    color: #00a4e5;
+    background-color: #ffffff;
+    border: 1px solid #00a4e5;
+  }
